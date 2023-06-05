@@ -1,0 +1,13 @@
+IMG_HEIGHT: 128
+IMG_WIDTH: 64
+BATCH_SIZE: 64
+
+DEVICE: 'cuda:0'
+WEIGHTS: './aga_engine/assets/weights/ckpt_max_2023-04-27_16_19_34.pth'
+
+BACKBONE: 'swin_t' # swin_t/s/b
+CLASSIFIER: 'linear'  # fixed
+CLS_POOLING: 'avg'  # fixed
+CLS_SCALE: 1  # fixed
+CLS_BN: False  # fixed
+CLS_NATTR: 26  # fixed
